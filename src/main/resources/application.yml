@@ -1,0 +1,19 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /app
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url:
+    name:
+    password:
+
+mybatis:
+  type-aliases-package:
+  mapper-locations:
+
+person:
+  username: charay
+  password: 123456
